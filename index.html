@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0e1f9f4dde.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <header>
+        <h1>Portfólio</h1>
+
+        <nav>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#Sobre">Sobre</a></li>
+            <li><a href="#Projetos">Projetos</a></li>
+            <li><a href="#Contato">Contato</a></li>
+            <li><a href="#Redes Sociais" class="Redes" onclick="toggle()">Redes Sociais</a></li>
+        </nav>
+
+        <nav class="nav-2">
+            <li><a href="#open" class="open" onclick="toggle()">Open</a></li>
+            <li><a href="#Redes Sociais" class="Redes" onclick="toggle()">Redes Sociais</a></li>
+        </nav>
+    </header>
+
+    <section class="Home" id="home">
+            <h1 class="h1-home">Hey! I'm Sonny.</h1>
+            <p class="p-home">I build and code beautiful, interactive, <br /> and responsive websites.<br /></p>
+        <div id="particle-canvas"></div>
+    </section>
+
+    <section class="Sobre" id="Sobre">
+
+        <h2>SOBRE MIM</h2>
+        <hr>
+        
+        <div class="container-sobre">
+            <img src="img/85620625.png" class="img-sobre">
+            <div class="column">
+                <div class="text">I'm Prakash and I'm a <span class="typing-2"></span></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
+            </div>
+        </div>
+
+        <a href="#">Download CV</a> 
+    </section>
+
+    
+
+    <section class="Projetos" id="Projetos">
+        <div class="banner-area">
+            <h3>I am a <span class="type"></span></h3>
+        </div>
+    </section>
+
+    <section class="Contato" id="Contato">
+
+
+    </section>
+
+
+
+
+
+    <div class="popup-container">
+        <div class="popup">
+            <h3>Redes Sociais</h3>
+
+            <input type="radio" name="buttons" id="btn1">
+            <input type="radio" name="buttons" id="btn2">
+            <input type="radio" name="buttons" id="btn3">
+            <input type="radio" name="buttons" id="btn4">
+            <input type="radio" name="buttons" id="btn5">
+
+            <div class="icons">
+                <label for="btn1"><a href="https://www.linkedin.com/in/victor-mesquita-b6a211198/"><i class="fab fa-linkedin"></i></a></label>
+                <label for="btn2"><a href="https://github.com/victor-joness"><i class="fab fa-github"></i></a></label>
+                <label for="btn3"><a href=""><i class="fab fa-twitter"></i></a></label>
+                <label for="btn4"><a href="mailto:victorjonesmesquits@gmail.com"><i class="fas fa-envelope"></i></a></label>
+                <label for="btn5"><a href=""><i class="fab fa-whatsapp-square"></i></a></label>
+            </div>
+            <div onclick="toggle()" class="close">✖</div>
+        </div>
+    </div>
+
+    
+
+
+
+
+    <!-- <footer>
+        <ul>
+            <li><a href=""><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/victor-mesquita-b6a211198/"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://github.com/victor-joness"><i class="fab fa-github"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li><a href="mailto:victorjonesmesquits@gmail.com"><i class="fas fa-envelope"></i></a></li>
+            <li><a href=""><i class="fab fa-whatsapp-square"></i></a></li>
+            <li><a href="#hero"><i class="fas fa-arrow-up"></i></a></li>
+        </ul>
+        <p>
+            &copy; By Victor Mesquita
+        </p>
+    </footer> -->
+</body>
+
+<script src="script.js"></script>
+<script src="depedencias/typed.js"></script>
+<script>
+    var typed = new Typed('.type', {
+    strings: [
+        'This is a JavaScript library', 
+        'This is an ES6 module'
+    ],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+  });
+</script>
+</html>
