@@ -28,7 +28,7 @@
     </header>
 
     <section class="Home" id="home">
-            <h1 class="h1-home">Hey! I'm Sonny.</h1>
+            <h1 class="h1-home">I am a <span class="type"></span></h1>
             <p class="p-home">I build and code beautiful, interactive, <br /> and responsive websites.<br /></p>
         <div id="particle-canvas"></div>
     </section>
@@ -53,7 +53,7 @@
 
     <section class="Projetos" id="Projetos">
         <div class="banner-area">
-            <h3>I am a <span class="type"></span></h3>
+            <h3>I am a <span class="type2"></span></h3>
         </div>
     </section>
 
@@ -113,6 +113,16 @@
 <script src="depedencias/typed.js"></script>
 <script>
     var typed = new Typed('.type', {
+    strings: [
+        'This is a JavaScript library', 
+        'This is an ES6 module'
+    ],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+  });
+
+  var typed = new Typed('.type2', {
     strings: [
         'This is a JavaScript library', 
         'This is an ES6 module'
