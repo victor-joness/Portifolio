@@ -10,3 +10,8 @@ window.onscroll = () => {
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
 }
+
+function toggle(){
+    let toggle = document.querySelector('.popup-container')
+    toggle.classList.toggle('toggle')
+}
