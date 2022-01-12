@@ -31,7 +31,7 @@
     <section class="home" id="home">
 
         <div class="content">
-            <h3>grow your businnes with us</h3>
+            <h3>nome</h3>
             <p>lorem ipsum whdsdajyh tefgsbs tyevs djsbdh dbhadb</p>
             <a href="#" class="btn">try for free</a>
         </div>
@@ -207,7 +207,7 @@
                 </div>
             </a>
 
-            <a href="#" class="card-link" data-toggle="modal" data-target="#modalBOOT">
+            <a href="#" class="card-link" onclick="toggle_boostrap()">
                 <div class="skill" >
                     <img src="images/icon-boostrap.svg" alt="Bootstrap">
                 </div>
@@ -217,7 +217,7 @@
     </section> 
 
     <section class="review" id="review">
-        <h1 class="heading">clients <span>review</span></h1>
+        <h1 class="heading">community <span>review</span></h1>
 
         <div class="box-container">
 
@@ -409,22 +409,20 @@
         </div>
     </div>
 
-    <div class="modal fade" id="modalBOOT">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title description">
-                        <img src="images/icon-boostrap.svg" alt="Bootstrap"> BOOTSTRAP
-                    </h1>
-                    <button type="button" class="close" data-dismiss="modal">
-                        <span>&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo. </p>
-                </div>
+    <div class="popup-container-boostrap">
+        <div class="modal-header-boostrap">
+            <img src="images/icon-boostrap.svg"> 
+            <h1 class="modal-title-description"> BOOTSTRAP </h1>
+            <button type="button" onclick="toggle_boostrap()    " class="close">
+                <span>&times;</span>
+            </button>
+            <hr>
+            <div class="informação">
+            <p>Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo. </p>
             </div>
         </div>
+        
+            
     </div>
 
     <div class="popup-container">

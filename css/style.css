@@ -13,6 +13,7 @@
 
 :root{
     --main-color: rgb(124, 214, 218);
+    --darkSecond: #1a192a;
     --black:#555;
     --light-color:rgb(102, 99, 99);
     --bg:#44B8F3;
@@ -50,7 +51,7 @@ section{
     text-align: center;
     padding-bottom: 3rem;
     font-size: 4rem;
-    color: var(--black);
+    color: var(--darkSecond);
 }
 
 .heading span{
@@ -83,7 +84,7 @@ section{
     right: 0;
     height: 100%;
     width: 0%;
-    background: var(--black);
+    background: var(--darkSecond);
     z-index: -1;
     transition: .2s ease-out;
 }
@@ -184,13 +185,13 @@ section{
 
 .home .content h3{
     font-size: 3.5rem;
-    color: var(--black);
+    color: var(--darkSecond);
     line-height: 1.8;
 }
 
 .home .content p{
     font-size: 1.5rem;
-    color: var(--light-color);
+    color: var(--darkSecond);
     line-height: 1.8;
     padding: 1rem 0 ;
 }
@@ -696,6 +697,107 @@ section.skills{
     section.skills{
         height: auto;
     }
+}
+
+/* codigos dos pop-up geral */
+
+
+section.skills{
+    position: relative;
+}
+
+
+
+/* pop-up container boostrap */
+
+
+
+.popup-container-boostrap{
+    position: fixed;
+    top: -120%; left: 0px;
+    z-index: 1000;
+    background: rgba(0, 0, 0, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-family:var(--font-titulo);
+}
+
+.popup-container-boostrap.toggle{
+    top: 0%;
+}
+
+.popup-container-boostrap .modal-header-boostrap{
+    background: var(--darkSecond);
+    text-align: center;
+    margin: 10px;
+    padding: 1rem;
+    height: 40rem;
+    width: 50rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    position: relative;
+}
+
+.popup-container-boostrap .modal-header-boostrap .informação p{
+    color: var(--bg);
+    font-family: var(--font-padrao);
+    
+    font-size: 2rem;    
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.popup-container-boostrap .modal-header-boostrap h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    margin-left: 2rem;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.popup-container-boostrap .modal-header-boostrap hr{
+    height: .1rem;
+    background: #fff;
+}
+
+.popup-container-boostrap .modal-header-boostrap .btn{
+    margin: 30px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+}
+
+.popup-container-boostrap .modal-header-boostrap input[type="radio"]{
+    display: none;
+}
+
+
+.popup-container-boostrap .modal-header-boostrap .close{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border-radius: 50%;
+    border: 4px solid var(--bg);
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    cursor: pointer;
+    color: #fff;
+    background: #333;
+    font-size: 20px;
+}
+
+.popup-container-boostrap .modal-header-boostrap h1{
+    font-family: var(--font-titulo);
+}
+
+.close:hover{
+    transform: rotate(90deg);
 }
 
 

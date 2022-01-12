@@ -15,3 +15,8 @@ function toggle(){
     let toggle = document.querySelector('.popup-container')
     toggle.classList.toggle('toggle')
 }
+
+function toggle_boostrap(){
+    let toggle = document.querySelector('.popup-container-boostrap')
+    toggle.classList.toggle('toggle')
+}
