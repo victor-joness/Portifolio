@@ -347,7 +347,7 @@ section{
     top: .5rem; right: 1.5rem;
     font-weight: bolder;
     font-size: 5rem;
-    color: var(--black);
+    color: var(--darkSecond);
 }
 
 .portfolio .box-container .box .content{
@@ -361,6 +361,7 @@ section{
     align-items: center;
     justify-content: center;
     opacity: 0;
+    
 }
 .portfolio .box-container .box:hover .content{
     opacity: 1;
@@ -370,13 +371,13 @@ section{
 .portfolio .box-container .box .content h3{
     font-size: 2.5rem;
     padding-bottom: .5rem;
-    color: var(--black);
+    color: var(--darkSecond);
 }
 
 .portfolio .box-container .box .content p{
     font-size: 1.5rem;
     padding-bottom: .5rem;
-    color: var(--light-color);
+    color: var(--darkSecond);
 }
 
 .portfolio .box-container .box::before{
@@ -706,13 +707,12 @@ section.skills{
     position: relative;
 }
 
+/* pop-up container boostrap, da pra melhorar muito, poderia criar uma classe geral para os 4*/
 
 
-/* pop-up container boostrap */
-
-
-
-.popup-container-boostrap{
+.popup-container-boostrap, .popup-container-javascript,
+.popup-container-css, .popup-container-html
+{
     position: fixed;
     top: -120%; left: 0px;
     z-index: 1000;
@@ -725,11 +725,15 @@ section.skills{
     font-family:var(--font-titulo);
 }
 
-.popup-container-boostrap.toggle{
+.popup-container-boostrap.toggle, .popup-container-javascript.toggle,
+.popup-container-css.toggle, .popup-container-html.toggle
+{
     top: 0%;
 }
 
-.popup-container-boostrap .modal-header-boostrap{
+.popup-container-boostrap .modal-header-boostrap, .popup-container-javascript .modal-header-javascript,
+.popup-container-css .modal-header-css, .popup-container-html .modal-header-html
+{
     background: var(--darkSecond);
     text-align: center;
     margin: 10px;
@@ -741,7 +745,9 @@ section.skills{
     position: relative;
 }
 
-.popup-container-boostrap .modal-header-boostrap .informação p{
+.popup-container-boostrap .modal-header-boostrap .informação p, .popup-container-javascript .modal-header-javascript .informação p,
+.popup-container-css .modal-header-css .informação p, .popup-container-html .modal-header-html .informação p
+{
     color: var(--bg);
     font-family: var(--font-padrao);
     
@@ -750,7 +756,9 @@ section.skills{
     padding: 1rem;
 }
 
-.popup-container-boostrap .modal-header-boostrap h1 {
+.popup-container-boostrap .modal-header-boostrap h1 , .popup-container-javascript .modal-header-javascript h1,
+.popup-container-css .modal-header-css h1 , .popup-container-html .modal-header-html h1 
+{
     justify-content: center;
     align-items: center;
     display: flex;
@@ -760,24 +768,25 @@ section.skills{
     margin-top: 1rem;
 }
 
-.popup-container-boostrap .modal-header-boostrap hr{
+.popup-container-boostrap .modal-header-boostrap hr, .popup-container-javascript .modal-header-javascript hr,
+.popup-container-css .modal-header-css hr, .popup-container-html .modal-header-html hr
+{
     height: .1rem;
     background: #fff;
 }
 
-.popup-container-boostrap .modal-header-boostrap .btn{
+.popup-container-boostrap .modal-header-boostrap .btn, .popup-container-javascript .modal-header-javascript .btn,
+.popup-container-css .modal-header-css .btn, .popup-container-html .modal-header-html .btn
+{
     margin: 30px;
     font-size: 20px;
     height: 40px;
     width: 150px;
 }
 
-.popup-container-boostrap .modal-header-boostrap input[type="radio"]{
-    display: none;
-}
-
-
-.popup-container-boostrap .modal-header-boostrap .close{
+.popup-container-boostrap .modal-header-boostrap .close, .popup-container-javascript .modal-header-javascript .close,
+.popup-container-css .modal-header-css .close, .popup-container-html .modal-header-html .close
+{
     position: absolute;
     top: -15px;
     right: -15px;
@@ -792,7 +801,15 @@ section.skills{
     font-size: 20px;
 }
 
-.popup-container-boostrap .modal-header-boostrap h1{
+.popup-container-boostrap .modal-header-boostrap .close span, .popup-container-javascript .modal-header-javascript .close span,
+.popup-container-css .modal-header-css .close span, .popup-container-html .modal-header-html .close span
+{
+    color: #fff;
+}
+
+.popup-container-boostrap .modal-header-boostrap h1, .popup-container-javascript .modal-header-javascript h1,
+.popup-container-css .modal-header-css h1, .popup-container-html .modal-header-html h1
+{
     font-family: var(--font-titulo);
 }
 
@@ -801,10 +818,7 @@ section.skills{
 }
 
 
-
-
 /* pop-up container modal for redes sociais */
-
 
 .popup-container{
     position: fixed;

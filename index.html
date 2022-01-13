@@ -188,20 +188,20 @@
 
         <div class="content-skills content" >
             
-            <a href="#" class="card-link" data-toggle="modal" data-target="#modalHTML" >
+            <a href="#" class="card-link" onclick="toggle_html()" >
                 <div class="skill">
                     <img src="images/icon-html5.svg" alt="HTML">
                 </div>
                 
             </a>
 
-            <a href="#" class="card-link" data-toggle="modal" data-target="#modalCSS" >
+            <a href="#" class="card-link" onclick="toggle_css()" >
                 <div class="skill">
                     <img src="images/icon-css.svg" alt="CSS">
                 </div>
             </a>
 
-            <a href="#" class="card-link" data-toggle="modal" data-target="#modalJS" >
+            <a href="#" class="card-link" onclick="toggle_javascript()" >
                 <div class="skill">
                     <img src="images/icon-javascript.svg" alt="JavaScript">
                 </div>
@@ -355,56 +355,44 @@
 
     <!-- modals -->
 
-    <div class="modal fade" id="modalHTML">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title description">
-                        <img src="images/icon-html5.svg" alt="HTML"> HTML
-                    </h1>
-                    <button type="button" class="close" data-dismiss="modal">
-                        <span>&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>HTML abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de Hipertexto" é uma linguagem de marcação utilizada na construção de páginas na Web. Em outras palavras, o HTML é o esqueleto do nosso site.</p>
-                </div>
+    <div class="popup-container-html">
+        <div class="modal-header-html">
+            <img src="images/icon-html5.svg"> 
+            <h1 class="modal-title-description"> HTML </h1>
+            <button type="button" onclick="toggle_html()" class="close">
+                <span>&times;</span>
+            </button>
+            <hr>
+            <div class="informação">
+                <p>HTML abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de Hipertexto" é uma linguagem de marcação utilizada na construção de páginas na Web. Em outras palavras, o HTML é o esqueleto do nosso site.</p>
             </div>
         </div>
     </div>
 
-    <div class="modal fade" id="modalJS">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title description">
-                        <img src="images/icon-javascript.svg" alt="JavaScript">  JavaScript
-                    </h1>
-                    <button type="button" class="close" data-dismiss="modal">
-                        <span>&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. O JavaScript tem a responbilidade de dar interação para nossa página.</p>
-                </div>
+    <div class="popup-container-css">
+        <div class="modal-header-css">
+            <img src="images/icon-css.svg"> 
+            <h1 class="modal-title-description"> CSS </h1>
+            <button type="button" onclick="toggle_css()" class="close">
+                <span>&times;</span>
+            </button>
+            <hr>
+            <div class="informação">
+                <p>Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web, ou seja, é o CSS que torna a nossa página algo bonito, com ele podemos atribuir cores, tamanhos, alinhamentos, formatações de texto e muito mais!</p>
             </div>
         </div>
     </div>
 
-    <div class="modal fade" id="modalCSS">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title description">
-                        <img src="images/icon-css.svg" alt="CSS"> CSS
-                    </h1>
-                    <button type="button" class="close" data-dismiss="modal">
-                        <span>&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web, ou seja, é o CSS que torna a nossa página algo bonito, com ele podemos atribuir cores, tamanhos, alinhamentos, formatações de texto e muito mais!</p>
-                </div>
+    <div class="popup-container-javascript">
+        <div class="modal-header-javascript">
+            <img src="images/icon-javascript.svg"> 
+            <h1 class="modal-title-description"> JAVASCRIPT </h1>
+            <button type="button" onclick="toggle_javascript()" class="close">
+                <span>&times;</span>
+            </button>
+            <hr>
+            <div class="informação">
+                <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. O JavaScript tem a responbilidade de dar interação para nossa página.</p>
             </div>
         </div>
     </div>
@@ -413,7 +401,7 @@
         <div class="modal-header-boostrap">
             <img src="images/icon-boostrap.svg"> 
             <h1 class="modal-title-description"> BOOTSTRAP </h1>
-            <button type="button" onclick="toggle_boostrap()    " class="close">
+            <button type="button" onclick="toggle_boostrap()" class="close">
                 <span>&times;</span>
             </button>
             <hr>

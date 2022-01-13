@@ -20,3 +20,18 @@ function toggle_boostrap(){
     let toggle = document.querySelector('.popup-container-boostrap')
     toggle.classList.toggle('toggle')
 }
+
+function toggle_javascript(){
+    let toggle = document.querySelector('.popup-container-javascript')
+    toggle.classList.toggle('toggle')
+}
+
+function toggle_css(){
+    let toggle = document.querySelector('.popup-container-css')
+    toggle.classList.toggle('toggle')
+}
+
+function toggle_html(){
+    let toggle = document.querySelector('.popup-container-html')
+    toggle.classList.toggle('toggle')
+}
