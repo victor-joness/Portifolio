@@ -711,7 +711,7 @@ section.skills{
 
 
 .popup-container-boostrap, .popup-container-javascript,
-.popup-container-css, .popup-container-html
+.popup-container-css, .popup-container-html, .popup-container-react
 {
     position: fixed;
     top: -120%; left: 0px;
@@ -726,13 +726,13 @@ section.skills{
 }
 
 .popup-container-boostrap.toggle, .popup-container-javascript.toggle,
-.popup-container-css.toggle, .popup-container-html.toggle
+.popup-container-css.toggle, .popup-container-html.toggle, .popup-container-react.toggle
 {
     top: 0%;
 }
 
 .popup-container-boostrap .modal-header-boostrap, .popup-container-javascript .modal-header-javascript,
-.popup-container-css .modal-header-css, .popup-container-html .modal-header-html
+.popup-container-css .modal-header-css, .popup-container-html .modal-header-html, .popup-container-react .modal-header-react
 {
     background: var(--darkSecond);
     text-align: center;
@@ -745,8 +745,15 @@ section.skills{
     position: relative;
 }
 
+.popup-container-react .modal-header-react img {
+    height: 100px;
+    width: 200px;
+}
+
+
+
 .popup-container-boostrap .modal-header-boostrap .informação p, .popup-container-javascript .modal-header-javascript .informação p,
-.popup-container-css .modal-header-css .informação p, .popup-container-html .modal-header-html .informação p
+.popup-container-css .modal-header-css .informação p, .popup-container-html .modal-header-html .informação p, .popup-container-react .modal-header-react .informação p
 {
     color: var(--bg);
     font-family: var(--font-padrao);
@@ -757,7 +764,7 @@ section.skills{
 }
 
 .popup-container-boostrap .modal-header-boostrap h1 , .popup-container-javascript .modal-header-javascript h1,
-.popup-container-css .modal-header-css h1 , .popup-container-html .modal-header-html h1 
+.popup-container-css .modal-header-css h1 , .popup-container-html .modal-header-html h1 , .popup-container-react .modal-header-react h1 
 {
     justify-content: center;
     align-items: center;
@@ -768,15 +775,19 @@ section.skills{
     margin-top: 1rem;
 }
 
+.popup-container-react .modal-header-react h1{
+    margin-left: 0;
+}
+
 .popup-container-boostrap .modal-header-boostrap hr, .popup-container-javascript .modal-header-javascript hr,
-.popup-container-css .modal-header-css hr, .popup-container-html .modal-header-html hr
+.popup-container-css .modal-header-css hr, .popup-container-html .modal-header-html hr, .popup-container-react .modal-header-react hr
 {
     height: .1rem;
     background: #fff;
 }
 
 .popup-container-boostrap .modal-header-boostrap .btn, .popup-container-javascript .modal-header-javascript .btn,
-.popup-container-css .modal-header-css .btn, .popup-container-html .modal-header-html .btn
+.popup-container-css .modal-header-css .btn, .popup-container-html .modal-header-html .btn, .popup-container-react .modal-header-react .btn
 {
     margin: 30px;
     font-size: 20px;
@@ -785,7 +796,7 @@ section.skills{
 }
 
 .popup-container-boostrap .modal-header-boostrap .close, .popup-container-javascript .modal-header-javascript .close,
-.popup-container-css .modal-header-css .close, .popup-container-html .modal-header-html .close
+.popup-container-css .modal-header-css .close, .popup-container-html .modal-header-html .close, .popup-container-react .modal-header-react .close
 {
     position: absolute;
     top: -15px;
@@ -802,13 +813,13 @@ section.skills{
 }
 
 .popup-container-boostrap .modal-header-boostrap .close span, .popup-container-javascript .modal-header-javascript .close span,
-.popup-container-css .modal-header-css .close span, .popup-container-html .modal-header-html .close span
+.popup-container-css .modal-header-css .close span, .popup-container-html .modal-header-html .close span, .popup-container-react .modal-header-react .close span
 {
     color: #fff;
 }
 
 .popup-container-boostrap .modal-header-boostrap h1, .popup-container-javascript .modal-header-javascript h1,
-.popup-container-css .modal-header-css h1, .popup-container-html .modal-header-html h1
+.popup-container-css .modal-header-css h1, .popup-container-html .modal-header-html h1, .popup-container-react .modal-header-react h1
 {
     font-family: var(--font-titulo);
 }

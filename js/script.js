@@ -35,3 +35,8 @@ function toggle_html(){
     let toggle = document.querySelector('.popup-container-html')
     toggle.classList.toggle('toggle')
 }
+
+function toggle_react(){
+    let toggle = document.querySelector('.popup-container-react')
+    toggle.classList.toggle('toggle')
+}
