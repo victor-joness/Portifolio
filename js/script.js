@@ -40,3 +40,26 @@ function toggle_react(){
     let toggle = document.querySelector('.popup-container-react')
     toggle.classList.toggle('toggle')
 }
+
+/* parte do nome animado */
+
+var typed = new Typed('.type', {
+    strings: [
+        'Developer Front-end', 
+        'Designer',
+        'Social Manager'
+    ],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+  });
+
+  var typed = new Typed('.type2', {
+    strings: [
+        'This is a JavaScript library', 
+        'This is an ES6 module'
+    ],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+  });

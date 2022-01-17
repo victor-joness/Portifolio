@@ -95,6 +95,10 @@ section{
 
 }
 
+.header .logo img{
+    height: 20px;
+}
+
 
 .header{
     position: fixed;
@@ -168,6 +172,41 @@ section{
 
 .home .content{
     flex: 1 1 45rem;
+}
+
+/* parte do nome animado */
+
+.home .content .text {
+    color: var(--darkSecond);
+    font-size: 2.95rem;
+}
+
+
+.home .content .text .name{
+    position: relative;
+    color: var(--darkSecond);
+    z-index: 1;
+    font-family: "Nunito";
+    font-weight: bold;
+}
+
+.home .content .text .name::before{
+    content:'';
+    position: absolute;
+    bottom: .7rem; left:0;
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    clip-path: polygon(0 90%, 100% 83%, 100% 100%, 0% 100%);
+    z-index: -1;
+    opacity: 1;
+}
+
+
+
+
+.type{
+    color: #fff;
 }
 
 .home .image {
