@@ -43,6 +43,18 @@ html{
     overflow-x: hidden;
 }
 
+html::-webkit-scrollbar{
+    width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:var(--darkSecond);
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--bg);
+}
+
 section{
     padding: 2rem 9%;
 }
@@ -181,6 +193,16 @@ section{
     font-size: 2.95rem;
 }
 
+.home .content a i{
+    color: var(--darkSecond);
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.home .content a:hover i{
+    color: #fff;
+}
+
 
 .home .content .text .name{
     position: relative;
@@ -201,9 +223,6 @@ section{
     z-index: -1;
     opacity: 1;
 }
-
-
-
 
 .type{
     color: #fff;
@@ -317,6 +336,7 @@ section{
 .sobre .row .content .title{
     font-size: 3rem;
     color: var(--darkSecond);
+    font-style: italic;
 }
 
 .sobre .row .content p{
@@ -324,6 +344,7 @@ section{
     color:var(--light-color);
     line-height: 1.8;
     padding: 1rem 0;
+    text-transform: none;
 }
 
 .sobre .row .content .icons-container{
@@ -374,8 +395,8 @@ section{
 }
 
 .portfolio .box-container .box img{
-    height: 100%;
-    width: 100%;
+   width: 100%;
+   height: 100%;
     object-fit: cover;
 }
 
@@ -604,6 +625,7 @@ section{
 
 .contact .row form .box:focus{
     background:var(--bg);
+    color: var(--darkSecond);
 }
 
 .contact .row form textarea{
