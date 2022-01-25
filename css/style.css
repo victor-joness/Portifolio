@@ -1056,15 +1056,14 @@ section.skills{
     } 
 
     .footer .box-container{
-        margin-left: 17rem;
+        margin-left: 19rem;
         gap: .5rem;
     }
 
-    .contact .row form .btn{
-        margin: 0 30%;
+    .contact .row form .btn {
+        margin-left: 40%;
         background: var(--bg);
     }
-    
 }
 
 @media (max-width:450px){
