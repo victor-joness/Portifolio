@@ -1,7 +1,7 @@
 # My Porfolio
 
 <p align="center">
- <img width="900" src="https://github.com/thiagodanobrega/myPortfolio/blob/master/project-preview.png?raw=true" alt="exemplo imagem" >
+ <img width="900" src="https://github.com/victor-joness/Portfolio/blob/master/project-preview.png?raw=true" alt="exemplo imagem" >
 </p>
 
 ## 💻 Projeto
