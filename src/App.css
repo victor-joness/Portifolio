@@ -17,8 +17,8 @@
 
 .main-container {
   background-color: var(--gray-400);
-  width: calc(100vw - 17.5rem);
-  margin-left: 17.5rem;
+  width: calc(100vw - 3rem);
+  margin-left: 3rem;
   overflow-x: hidden;
   overflow-y: hidden;
 }
