@@ -1,26 +1,29 @@
-import React, { useState, useContext } from "react";
+import React, { useState } from "react";
 import "../styles/SideBar.css";
 import react_icon from "../images/react_icon.svg";
 import js_icon from "../images/js_icon.svg";
 import html_icon from "../images/html_icon.svg";
 import css_icon from "../images/css_icon.svg";
 import json_icon from "../images/json_icon.svg";
-import Icon_hamburguer from "../images/burger-menu.svg";
-import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
-import { FaFolder, FaFolderOpen } from "react-icons/fa";
+import csharp_icon from "../images/Csharp_icon.svg";
+import py_icon from "../images/py_icon.svg";
 import { Link } from "react-router-dom";
-import myContext from "../context/AppContext";
 
-function SideBar() {
-  const { activeSideBar } = useContext(myContext);
-  const [open, setOpen] = useState(true);
+function SideBar({childToParent}) {
+  const [open, setOpen] = useState(false);
+
+  const handlebutton = () => {
+    setOpen(!open);
+    childToParent(open);
+  }
+
   return (
     <aside className={`side-bar-container ${open && "active"}`}>
       <div className="explore-title">
         <button
           type="button"
           className={`explore-button ${open && "active"}`}
-          onClick={() => setOpen(!open)}
+          onClick={() => handlebutton()}
         >
           <svg
             class="hamburger-icon"
@@ -52,13 +55,21 @@ function SideBar() {
             <img src={js_icon} alt="icon" className="icon-side-bar" />
             <p>projetos.js</p>
           </Link>
-          <Link to="/recommendation" className="explorer-file">
+          <Link to="/blog" className="explorer-file">
             <img src={json_icon} alt="icon" className="icon-side-bar" />
-            <p>recomendacoes.json</p>
+            <p>blog.json</p>
+          </Link>
+          <Link to="/experiences" className="explorer-file">
+            <img src={csharp_icon} alt="icon" className="icon-side-bar" />
+            <p>Experiências.cs</p>
           </Link>
           <Link to="/contact" className="explorer-file">
             <img src={css_icon} alt="icon" className="icon-side-bar" />
             <p>contato.css</p>
+          </Link>
+          <Link to="/codificando" className="explorer-file">
+            <img src={py_icon} alt="icon" className="icon-side-bar" />
+            <p>codificando.py</p>
           </Link>
         </>
       ) : (
