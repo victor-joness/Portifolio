@@ -1,0 +1,203 @@
+#s-experience {
+  color: #fff;
+  margin-top: 2rem;
+  padding: 48px 64px;
+}
+@media screen and (max-width: 992px) {
+  #s-experience {
+    padding: 48px 24px;
+  }
+}
+#s-experience .grid-layout h2 {
+  padding-bottom: 24px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+}
+#s-experience .grid-layout h2 span {
+  color: var(--red-100);
+}
+#s-experience .grid-layout #experience {
+  margin-top: 32px;
+  display: flex;
+  gap: 40px;
+}
+@media screen and (max-width: 1200px) {
+  #s-experience .grid-layout #experience {
+    flex-wrap: wrap;
+  }
+}
+#s-experience .grid-layout #experience .option-experience {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+}
+@media screen and (max-width: 1200px) {
+  #s-experience .grid-layout #experience .option-experience {
+    width: 100%;
+  }
+}
+#s-experience .grid-layout #experience .option-experience .activeExperience {
+  border-left: 4px solid var(--red-100);
+  color: var(--red-100);
+}
+#s-experience .grid-layout #experience .option-experience .activeExperience h3 {
+  font-weight: 600;
+}
+#s-experience .grid-layout #experience .option-experience > div {
+  padding: 24px 32px;
+  text-align: left;
+  background-color: #111;
+  border-left: 4px solid #111;
+}
+#s-experience .grid-layout #experience .option-experience > div:hover {
+  cursor: pointer;
+}
+#s-experience .grid-layout #experience .option-experience > div h3 {
+  font-weight: 400;
+}
+#s-experience .grid-layout #experience .text-experience {
+  width: 90%;
+}
+@media screen and (max-width: 1200px) {
+  #s-experience .grid-layout #experience .text-experience {
+    width: 100%;
+  }
+}
+#s-experience .grid-layout #experience .text-experience > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1200px) {
+  #s-experience .grid-layout #experience .text-experience > div {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+}
+#s-experience .grid-layout #experience .text-experience > div h4 {
+  font-weight: 400;
+}
+#s-experience .grid-layout #experience .text-experience > div p {
+  color: #9ca3af;
+}
+#s-experience .grid-layout #experience .text-experience h4 {
+  margin: 32px 0px;
+  font-weight: 500;
+  color: var(--red-100);
+}
+#s-experience .grid-layout #experience .text-experience p {
+  line-height: 160%;
+  color: #9ca3af;
+  font-weight: 400;
+}
+
+.main-wrapper.experiencias {
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* certificados */
+
+.main-wrapper.certificados {
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#s-experience-certificado {
+  color: #fff;
+  padding: 0px 64px;
+}
+
+@media screen and (max-width: 992px) {
+  #s-experience-certificado {
+    padding: 48px 24px;
+  }
+}
+#s-experience-certificado .grid-layout h2 {
+  padding-bottom: 24px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+}
+#s-experience-certificado .grid-layout h2 span {
+  color:  #986dff;
+}
+#s-experience-certificado .grid-layout #experience {
+  margin-top: 32px;
+  display: flex;
+  gap: 40px;
+}
+@media screen and (max-width: 1200px) {
+  #s-experience-certificado .grid-layout #experience {
+    flex-wrap: wrap;
+  }
+}
+#s-experience-certificado .grid-layout #experience .option-experience {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+}
+@media screen and (max-width: 1200px) {
+  #s-experience-certificado .grid-layout #experience .option-experience {
+    width: 100%;
+  }
+}
+#s-experience-certificado .grid-layout #experience .option-experience .activeCertificados {
+  border-left: 4px solid  #986dff;
+  color:  #986dff;
+}
+#s-experience-certificado .grid-layout #experience .option-experience .activeCertificados h3 {
+  font-weight: 600;
+}
+#s-experience-certificado .grid-layout #experience .option-experience > div {
+  padding: 24px 32px;
+  text-align: left;
+  background-color: #111;
+  border-left: 4px solid #111;
+}
+#s-experience-certificado .grid-layout #experience .option-experience > div:hover {
+  cursor: pointer;
+}
+#s-experience-certificado .grid-layout #experience .option-experience > div h3 {
+  font-weight: 400;
+}
+#s-experience-certificado .grid-layout #experience .text-experience {
+  width: 90%;
+}
+@media screen and (max-width: 1200px) {
+  #s-experience-certificado .grid-layout #experience .text-experience {
+    width: 100%;
+  }
+}
+#s-experience-certificado .grid-layout #experience .text-experience > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1200px) {
+  #s-experience-certificado .grid-layout #experience .text-experience > div {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+}
+#s-experience-certificado .grid-layout #experience .text-experience > div h4 {
+  font-weight: 400;
+}
+#s-experience-certificado .grid-layout #experience .text-experience > div p {
+  color: #9ca3af;
+}
+#s-experience-certificado .grid-layout #experience .text-experience h4 {
+  margin: 32px 0px;
+  font-weight: 500;
+  color:  #986dff;
+}
+#s-experience-certificado .grid-layout #experience .text-experience p {
+  line-height: 160%;
+  color: #9ca3af;
+  font-weight: 400;
+}
