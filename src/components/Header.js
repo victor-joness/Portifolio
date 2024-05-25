@@ -6,7 +6,8 @@ import js_icon from '../images/js_icon.svg'
 import html_icon from '../images/html_icon.svg'
 import css_icon from '../images/css_icon.svg'
 import json_icon from '../images/json_icon.svg'
-
+import csharp_icon from '../images/Csharp_icon.svg'
+import py_icon from '../images/py_icon.svg'
 
 function Header() {
   return ( 
@@ -29,13 +30,23 @@ function Header() {
         />
         <MenuBar 
           icon={ json_icon }
-          name='recomendacoes.json'
-          path="/recommendation"
+          name='blog.json'
+          path="/blog"
         /> 
+        <MenuBar 
+          icon={ csharp_icon }
+          name='Experiências.cs'
+          path="/experiences"
+        />
         <MenuBar 
           icon={ css_icon }
           name='contato.css'
           path="/contact"
+        /> 
+        <MenuBar 
+          icon={ py_icon }
+          name='codificando_soluções.py 🚧'
+          path="/codificando"
         /> 
       </nav>
     </header>
