@@ -1,8 +1,13 @@
 .main-wrapper.contact {
   justify-content: center;
-  gap: 6rem;
-  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
 }
+
+.title-page-contact {
+  font-size: 45px;
+}
+
 .class-name {
   color: var(--blue-200);
   font-size: 1.2rem;
@@ -26,6 +31,12 @@ a {
 }
 
 .title-container {
+  width: min(400px, 90vw);
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* .title-container {
   width: min(400px, 90vw);
   margin-top: 30px;
   text-align: center;
@@ -68,7 +79,7 @@ a {
   font-family: 'Fira Code', monospace;
   padding-left: 6rem;
   border-left: 1px solid var(--gray-200);
-}
+} */
 
 @media screen and (max-width: 1150px) {
   .main-wrapper.contact {
