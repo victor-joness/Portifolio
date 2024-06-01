@@ -3,7 +3,7 @@ const projects = [
     type: "front",
     name: "Solf1",
     description:
-      "Sistema de Controle Financeiro Pessoal na Web, Realizado para a Disciplina de Projeto Integrador I.",
+      "Um sistema para o controle financeiro pessoal. Permite aos usuários gerenciar, organizar e controlar suas finanças de forma acessível.",
     src: "logoverde.png",
     repository:
       "https://github.com/victor-joness/Solf1-Solucoes-Financeiras-2.0",
@@ -23,7 +23,7 @@ const projects = [
     type: "front",
     name: "Temps",
     description:
-      "Repositorio com templates de sites single/landing page responsivos e modernos",
+      "Repositório com templates de sites single/landing page responsivos e modernos, projetados para oferecer design elegante e performance otimizada em qualquer dispositivo.",
     src: "temps.png",
     repository:
       "https://github.com/victor-joness/Templates-para-sites-genericos-freelances",
@@ -43,14 +43,41 @@ const projects = [
     type: "front",
     name: "R&VIEW PDF",
     description:
-      "Projeto de um Visualizador e Editor de Documentos PDF, Realizado para a Disciplina de Projeto Integrador II.",
+      "Este projeto consiste em um visualizador e editor de documentos PDF, permitindo aos usuários visualizar, anotar, editar e salvar arquivos PDF com facilidade e eficiência.",
     src: "R-view.png",
     repository: "https://github.com/victor-joness/R-VIEW",
     site: "https://www.figma.com/file/j8VOMfCe3Gyb2pTaN9fu4d/Untitled?fuid=988763697417346370",
     technologies: ["HTML5", "CSS3", "ES6"],
   },
-
   {
+    type: "back",
+    name: "Em breve",
+    description: "Em breve",
+    src: "back.png",
+    repository: "",
+    site: "",
+    technologies: ["MySQL"],
+  },
+  {
+    type: "back",
+    name: "Em breve",
+    description: "Em breve",
+    src: "back.png",
+    repository: "",
+    site: "",
+    technologies: ["MySQL"],
+  },
+  {
+    type: "back",
+    name: "Em breve",
+    description: "Em breve",
+    src: "back.png",
+    repository: "",
+    site: "",
+    technologies: ["MySQL"],
+  },
+
+  /* {
     type: "front",
     name: "Ecommerce App",
     description:
@@ -67,7 +94,7 @@ const projects = [
       "NodeJs",
       "MongoDB",
     ],
-  },
+  }, */
   {
     type: "back",
     name: "Em breve",

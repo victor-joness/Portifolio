@@ -22,11 +22,11 @@ function Contact() {
           <Header />
           <MenuMobile />
           <main className="main-wrapper contact">
-          <h1 className="title-contact">Vamos conversar 🤙</h1>
-            <div className="title-container">
+            <h1 className="title-page-contact">Vamos conversar 🤙</h1>
+            <div className="btn-container">
               
             </div>
-            <div className="list-contact">
+            {/* <div className="list-contact">
               <p className="class-name line">
                 .contatos<span className="element">{" {"}</span>
               </p>
@@ -40,7 +40,7 @@ function Contact() {
                 </p>
               ))}
               <p className="element line">{"}"}</p>
-            </div>
+            </div> */}
           </main>
         </section>
         <SideBar childToParent={childToParent} />

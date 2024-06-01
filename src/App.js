@@ -7,8 +7,10 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Blog from './pages/Blog';
 import Experiencies from './pages/Experiencies';
-
 import Codificando from './pages/Codificando';
+
+import Post from "./pages/Post";
+import posts from "./data/blog";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path="/blog" element={ <Blog /> } />
         <Route path="/experiences" element={<Experiencies/>}/>
         <Route path="/codificando" element={<Codificando/>}/>
+
+        <Route path="/post/:id" element={<Post posts={posts}/>}/>
       </Routes>
     </>
   );

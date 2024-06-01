@@ -35,7 +35,7 @@ function Projects() {
                 className={`btn-filter ${typeFilter === "all" && "active"}`}
                 onClick={() => setTypeFilter("all")}
               >
-                All
+                Todos
               </button>
               <button
                 type="button"
