@@ -6,6 +6,7 @@ import TitleBar from "../components/TitleBar";
 import Footer from "../components/Footer";
 import SideBar from "../components/SideBar";
 import MenuMobile from "../components/MenuMobile";
+import "../styles/post.css";
 
 const Post = ({ posts }) => {
   const [data, setData] = useState("");
@@ -17,9 +18,7 @@ const Post = ({ posts }) => {
   const { id } = useParams();
   const post = posts.find((p) => p.id === parseInt(id));
 
-  if (!post) {
-    return <div>Post não encontrado</div>;
-  }
+  console.log(post);
 
   return (
     <body>
@@ -29,7 +28,68 @@ const Post = ({ posts }) => {
           <Header />
           <MenuMobile />
           <main className="main-wrapper codificando">
-            <h1>EM CONSTRUÇÃO 🚧🚧🚧</h1>
+            {!post ? (
+              <div className="post-nao-encontrado">Post não encontrado</div>
+            ) : (
+              <div className="post-container">
+                <div class="post-img">
+                  <img src={post.src} alt="Imagem do post" />
+                </div>
+                <div className="post-titulo">{post.titulo}</div>
+                <div className="post-info">
+                  <p>
+                    {post.autor} - {post.data} -{" "}
+                    <span style={{ color: "var(--red-100)" }}>
+                      {post.tempo_de_leitura}
+                    </span>{" "}
+                    de Leitura
+                  </p>
+                </div>
+                <div className="post-categoria">
+                  <div className="technologies-container">
+                    {post.tecnologias.map((tech) => (
+                      <span className="span-technologies">{tech}</span>
+                    ))}
+                  </div>
+                </div>
+                <div className="post-texto">
+                  <p>{post.texto_parte1}</p>
+                  <br />
+                  {post.texto_img_parte1 ? (
+                    <img
+                      src={post.texto_img_parte1}
+                      alt="Imagem da parte 1 do texto"
+                    />
+                  ) : (
+                    <br />
+                  )}
+                  <p>{post.texto_parte2}</p>
+                  <br />
+                  {post.texto_img_parte2 ? (
+                    <img
+                      src={post.texto_img_parte2}
+                      alt="Imagem da parte 2 do texto"
+                    />
+                  ) : (
+                    <br />
+                  )}
+                  <p>{post.texto_parte3}</p>
+                  {post.texto_img_parte3 ? (
+                    <img
+                      className="post-img-texto"
+                      src={post.texto_img_parte3}
+                      alt="Imagem da parte 3 do texto"
+                    />
+                  ) : (
+                    <br />
+                  )}
+                </div>
+                <div className="post-footer">
+                  <p>Obrigado pela Leitura</p>
+                  <p>Victor Mesquita</p>
+                </div>
+              </div>
+            )}
           </main>
         </section>
         <SideBar childToParent={childToParent} />

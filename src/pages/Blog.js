@@ -96,7 +96,7 @@ function Blog() {
                     data,
                     src,
                     repository,
-                    descrição,
+                    descricao,
                     site,
                     tecnologias,
                     id
@@ -106,7 +106,7 @@ function Blog() {
                   <div key={index} className="card-posts">
                     <h2 className="title-posts">{titulo}</h2>
                     <p className="data-posts">{data}</p>
-                    <p>{descrição}</p>
+                    <p>{descricao}</p>
 
                     <button className="button-posts" onClick={() => HandleClickPost(id)}>Ler Artigo</button>
                     <div className="img-container">
