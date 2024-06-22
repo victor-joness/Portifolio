@@ -36,7 +36,7 @@ function Experiencies() {
 
     hoverChangeExperience(
       ".fitbank",
-      `Colaboro como Desenvolvedor full stack com um foco mais em Back-End, criando novas funcionalidades no sistema de pagamentos da empresa FitBank, mantendo essas funcionalidades e atualizando funcionalidades existentes. Agregando ao time com skills tecnológicas e interpessoais, buscando constantemente a excelência e a inovação.`,
+      `Colaboro como Desenvolvedor full stack, criando novas funcionalidades no sistema de pagamentos da empresa FitBank, mantendo essas funcionalidades e atualizando funcionalidades existentes. Agregando ao time com skills tecnológicas e interpessoais, buscando constantemente a excelência e a inovação.`,
       "Desenvolvedor FullStack Jr",
       "Fitbank",
       "Out 2023 - Atual (8 meses)"
@@ -176,8 +176,7 @@ function Experiencies() {
                     </div>
                     <h4 className="companyExperience">Fitbank</h4>
                     <p className="changeExperience">
-                      Colaboro como Desenvolvedor full stack com um foco mais em
-                      Back-End, criando novas funcionalidades no sistema de
+                      Colaboro como Desenvolvedor full stack, criando novas funcionalidades no sistema de
                       pagamentos da empresa FitBank, mantendo essas
                       funcionalidades e atualizando funcionalidades existentes.
                       Agregando ao time com skills tecnológicas e interpessoais,

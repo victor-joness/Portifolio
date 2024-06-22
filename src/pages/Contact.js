@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import SideBar from "../components/SideBar";
 import MenuMobile from "../components/MenuMobile";
 import "../styles/Contact.css";
-import contacts from "../data/contacts";
+import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 
 function Contact() {
   const [data, setData] = useState("");
@@ -23,24 +23,86 @@ function Contact() {
           <MenuMobile />
           <main className="main-wrapper contact">
             <h1 className="title-page-contact">Vamos conversar 🤙</h1>
-            <div className="btn-container">
-              
+            <div className="btn-container"></div>
+            <div className="contact">
+              <div class="icons-container">
+                <div class="icons">
+                  <i>
+                    <FaPhone />
+                  </i>
+                  <div className="icons-infos">
+                    <h3>Número</h3>
+                    <p>+55 88 9.97927491</p>
+                    <p>+55 88 9.99937525</p>
+                  </div>
+                </div>
+                <div class="icons">
+                  <i>
+                    <FaEnvelope />
+                  </i>
+
+                  <div className="icons-infos">
+                    <h3>Email</h3>
+                    <a
+                      class="email-text"
+                      href="mailto:victorjonesmesquits@gmail.com"
+                    >
+                      <p>victorjonesmesquits@gmail.com</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="icons">
+                  <i>
+                    <FaMapMarkerAlt />
+                  </i>
+                  <div className="icons-infos">
+                    <h3>Localização</h3>
+                    <p>Ceará, Brasil</p>
+                    <p>Remoto, Mundo</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <form
+                  action="https://formsubmit.co/victorjonesmesquits@gmail.com"
+                  method="POST"
+                >
+                  <input
+                    type="text"
+                    placeholder="Nome"
+                    class="box"
+                    name="name"
+                    required
+                  />
+                  <input
+                    type="email"
+                    placeholder="E-mail"
+                    class="box"
+                    name="email"
+                    required
+                  />
+                  <input
+                    type="number"
+                    placeholder="Numero"
+                    class="box"
+                    name="number"
+                    required
+                  />
+                  <textarea
+                    name="message"
+                    placeholder="Mensagem"
+                    class="box"
+                    id=""
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                  <button type="submit" class="btn">
+                    Enviar{" "}
+                  </button>
+                </form>
+              </div>
             </div>
-            {/* <div className="list-contact">
-              <p className="class-name line">
-                .contatos<span className="element">{" {"}</span>
-              </p>
-              {contacts.map(({ social, href, text }) => (
-                <p className="key-name line" key={social}>
-                  {social}:
-                  <a href={href} target="_blank" rel="noreferrer">
-                    {text}
-                  </a>
-                  ;
-                </p>
-              ))}
-              <p className="element line">{"}"}</p>
-            </div> */}
           </main>
         </section>
         <SideBar childToParent={childToParent} />

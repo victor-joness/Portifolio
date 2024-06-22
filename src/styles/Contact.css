@@ -1,7 +1,6 @@
 .main-wrapper.contact {
-  justify-content: center;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 90px;
 }
 
 .title-page-contact {
@@ -36,50 +35,120 @@ a {
   text-align: center;
 }
 
-/* .title-container {
-  width: min(400px, 90vw);
-  margin-top: 30px;
+.contact .icons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  padding-bottom: 0rem;
+  padding-top: 0rem;
+}
+
+.contact .icons-container .icons {
+  background-color: #fff;
   text-align: center;
+  border: var(--border);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.title-contact {
-  font-size: 2rem;
-  color: var(--white-100);
+.contact .icons-container .icons .icons-infos{
+  display: flex;
+  flex-direction: column;
 }
 
-.message-contact {
-  color: var(--gray-100);
-  font-size: 1rem;
-  margin-top: 1.5rem;
+.contact .icons-container .icons i {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3.4rem;
+  font-size: 1.5rem;
+  color: #fff;
+  background: var(--bg);
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-.list-contact {
-  counter-reset: line;
-  counter-increment: line 0;
-  position: relative;
-  white-space: pre-wrap; 
-  padding-left: 7rem;
+.contact .icons-container .icons h3 {
+  color: var(--black);
+  font-size: 1.5rem;
 }
 
-.list-contact .line {
-  display: block;
-  line-height: 1.5em;
+.contact .icons-container .icons p {
+  color: var(--light-color);
+  line-height: 1.8;
+  font-size: 1.2rem;
 }
 
-.list-contact .line:before {
-  font-size: 1rem;
-  font-weight: normal;
-  position: absolute;
-  left: -10px;
-  content: counter(line);
-  counter-increment: line;
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.contact .row .map {
+  flex: 1 1 25rem;
+  width: 100%;
+  padding: 2rem;
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  border-radius: 0.5rem;
+}
+
+.contact .row form {
+  flex: 1 1 25rem;
+  padding: 2rem;
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  border-radius: 0.5rem;
+  padding-top: 1rem;
+}
+
+.contact .row form .box {
+  margin: 0.7rem 0;
+  padding: .5rem;
+  font-size: 1.6rem;
+  color: var(--black);
+  border-radius: 0.5rem;
+  border: var(--border);
+  background: #f7f7f7;
+  text-transform: none;
+  width: 100%;
+}
+
+.contact .row form textarea {
+  height: 15rem;
+  resize: none;
+}
+
+.contact .row form .btn:hover {
+  background: var(--darkSecond);
+}
+
+.contact .row form .btn {
   display: inline-block;
-  border:none;
-  color: var(--gray-100);
-  font-family: 'Fira Code', monospace;
-  padding-left: 6rem;
-  border-left: 1px solid var(--gray-200);
-} */
+  padding: .8rem 3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #fff;
+  border-radius: .5rem;
+  box-shadow: var(--box-shadow);
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 45%;
+  background: var(--bg);
+}
+
+.contact .icons-container .icons a p {
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 1rem;
+}
 
 @media screen and (max-width: 1150px) {
   .main-wrapper.contact {
