@@ -20,7 +20,6 @@ const Componente = () => {
     "react",
     "html5",
     "css3",
-    "testinglibrary",
     "jest",
     "typescript",
     "nodedotjs",
@@ -28,6 +27,9 @@ const Componente = () => {
     "visualstudiocode",
     "redux",
     "mysql",
+    "dotnet",
+    "csharp",
+    "mui"
   ];
   const iconTags = iconSlugs.map((slug) => ({
     id: slug,

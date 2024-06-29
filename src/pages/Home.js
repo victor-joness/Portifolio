@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Header from "../components/Header";
 import TitleBar from "../components/TitleBar";
 import Footer from "../components/Footer";
@@ -11,12 +11,18 @@ import MenuMobile from "../components/MenuMobile";
 import Typical from "react-typical";
 
 function Home() {
+  const [data, setData] = useState('');
+
+  const childToParent = (childdata) => {
+    setData(childdata);
+  }
+
   return (
     <body>
       <TitleBar />
       <section className="flex-container">
-        <SideBar />
-        <section className="main-container">
+        <SideBar childToParent={childToParent}/>
+        <section className={`main-container ${data && "active"}`}>
           <Header />
           <MenuMobile />
           <main className="main-wrapper home">
@@ -29,10 +35,10 @@ function Home() {
               </h1>
               <Typical
                 steps={[
-                  "Web Developer",
-                  1000,
+                  "Full Stack Developer",
+                  2000,
                   "Computer science Student",
-                  1000,
+                  2000,
                 ]}
                 loop={Infinity}
                 wrapper="h2"
@@ -46,6 +52,15 @@ function Home() {
                   rel="noreferrer"
                 >
                   Download CV
+                  <FiDownload />
+                </a>
+                <a
+                  href=""
+                  target="_blank"
+                  className="btn-pdf"
+                  rel="noreferrer"
+                >
+                  Currículo PDF
                   <FiDownload />
                 </a>
                 <a

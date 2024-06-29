@@ -1,6 +1,5 @@
 .home-content {
   padding: 1rem;
-  margin-top: 100px;
 }
 
 .home-content h1 {
@@ -51,7 +50,6 @@
 
 .image-perfil {
   width: 500px;
-  margin-top: 50px;
 }
 
 .btn-download {
@@ -94,8 +92,33 @@
   transition: 0.3s;
 }
 
+.btn-pdf {
+  text-decoration: none;
+  border:none;
+  outline: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 180px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: rgb(214, 60, 33);
+  color: var(--white-100);
+  transition: 0.3s;
+}
+
 .btn-whats:hover{
   background-color: rgb(25, 106, 112);
+  color: var(--white-100);
+}
+
+.btn-pdf:hover{
+  background-color: rgb(167, 46, 25);
   color: var(--white-100);
 }
 

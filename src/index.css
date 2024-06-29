@@ -10,6 +10,10 @@
   --gray-300: #2D333B;
   --gray-200: #3f4244;
   --gray-100: #768390;
+  --bg:#44B8F3;
+  --border: .1rem solid rgba(0,0,0,.1);
+  --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+  --darkSecond: #1a192a;
 }
 body {
   margin: 0;

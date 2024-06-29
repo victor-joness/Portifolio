@@ -1,7 +1,7 @@
 .main-wrapper.projects {
   justify-content: center;
   flex-direction: column;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 .title-page-projects {
   font-size: 45px;
@@ -11,9 +11,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 100px;
-  width: min(1200px, 90vw);
+  width: min(1500px, 90vw);
   justify-content: center;
   min-height: 100vh;
   max-height: auto;
