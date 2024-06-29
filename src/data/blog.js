@@ -2,26 +2,30 @@ const posts = [
   {
     id: 1,
     categoria: "dia_a_dia",
-    titulo: "Flamengo vence e vai para a proxima fase",
-    data: "01/06/2024",
-    descricao: "Lorem ipsum dolor sit amet consectetur adipisicing elit Possimus, esse. Provident vero illum inventore. Tempore assumenda harum natus nobis numquam exercitationem a. Laborum rem non adipisci sed amet deserunt obcaecati!",
-    texto_parte1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis.",
+    titulo: "Meu Novo Portfólio Está no Ar! Confira os Detalhes.",
+    data: "29/06/2024",
+    descricao: "Estou empolgado em compartilhar que acabei de concluir meu novo portfólio pessoal. Estava com esse projeto guardado na gaveta há meses e, finalmente, hoje estou lançando. Aproveitei para refatorar o código e adicionar novas funcionalidades!!",
+    title_parte1: "Descrição do Projeto:",
+    texto_parte1: "Estou empolgado em compartilhar que acabei de concluir meu novo portfólio pessoal. Este é um marco significativo na minha jornada como desenvolvedor, refletindo minhas habilidades, projetos e a evolução do meu trabalho ao longo dos anos. Estava com esse projeto guardado na gaveta há meses e, finalmente, hoje estou lançando. Durante o desenvolvimento, aproveitei para refatorar código antigo, melhorar a performance e adicionar novas seções como um blog, uma área detalhada sobre minha experiência profissional, e muito mais.",
     texto_img_parte1: "",
-    texto_parte2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis.",
+    title_parte2: "Desafios Enfrentados e Tecnologias Utilizadas",
+    texto_parte2: "Durante o desenvolvimento, enfrentei diversos desafios, desde a escolha do design até a otimização da performance. Um dos maiores obstáculos foi garantir que o site fosse responsivo e funcionasse bem em todos os dispositivos. Com muita pesquisa e testes, consegui resolver esses problemas e criar uma experiência de usuário suave. A refatoração do código antigo também foi um grande desafio, mas resultou em um código mais limpo e eficiente. Para superar esses desafios, utilizei as seguintes tecnologias: HTML5 e CSS3 para a estrutura e estilização do site. JavaScript para adicionar interatividade. ReactJS para criar componentes reutilizáveis e gerenciar o estado da aplicação. Node.js e Express para o backend. Git e GitHub para controle de versão e hospedagem do código.",
     texto_img_parte2: "",
-    texto_parte3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis.",
-    texto_img_parte3: "https://tntsports.com.br/__export/1715985736288/sites/esporteinterativo/img/2024/05/17/20240517-192456_2046908_2871_crop1715985581348.jpg_554688468.jpg",
-    src: "https://lncimg.lance.com.br/uploads/2024/04/Flamengo-x-Sao-Paulo-aspect-ratio-512-320.jpg",
+    title_parte3: "Próximos Passos, futuro e Conclusão",
+    texto_parte3: `Embora meu portfólio esteja concluído, sempre há espaço para melhorias e novos desafios. Pretendo adicionar novos projetos regularmente e integrar ao blog as novidades. Estou ansioso para iniciar o desenvolvimento do meu TCC, onde documentarei todo o processo no blog do site. Além disso, tenho planos para projetos futuros que incluem o desenvolvimento de soluções SaaS, desenvolvimento de sistemas de gerenciamento de saúde (HMS) e ERP, e o projeto 'Codificando Soluções'. Este último será um site dedicado a desafios da comunidade, oferecendo resoluções e ideias de como resolver diversos problemas de programação. Também planejo adicionar uma seção de depoimentos/comentários para incluir feedbacks dos meus colegas e usuarios. 
+    \n Gostaria de agradecer a todos que me apoiaram nesta jornada. Convido todos a visitar meu portfólio e conferir os projetos que desenvolvi. Seus feedbacks serão muito bem-vindos!`,
+    texto_img_parte3: "",
+    src: "https://raw.githubusercontent.com/victor-joness/Portifolio/0fb3eb19378a8aa24d82552d3672ecce329e3bc0/src/Blog/post_1_imgCapa.png",
     repository: "",
     site: "",
-    tecnologias: ["MySQL", "JavaScript", "C#", "Java"],
+    tecnologias: ["React", "Css", "JavaScript"],
     autor: "Victor Mesquita",
-    tempo_de_leitura: "10 min",
+    tempo_de_leitura: "5 min",
   },
-  {
+  /* {
     id: 2,
     categoria: "dia_a_dia",
-    titulo: "Titulo do Post",
+    titulo: "Titulo do Post Titulo do Post",
     data: "01/06/2024",
     descricao: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, esse. Provident vero illum inventore. Tempore assumenda harum natus nobis numquam exercitationem a. Laborum rem non adipisci sed amet deserunt obcaecati!",
     texto_parte1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis.",
@@ -40,7 +44,7 @@ const posts = [
   {
     id: 3,
     categoria: "dia_a_dia",
-    titulo: "Titulo do Post",
+    titulo: "Titulo do Post Titulo do Post",
     data: "01/06/2024",
     descricao: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, esse. Provident vero illum inventore. Tempore assumenda harum natus nobis numquam exercitationem a. Laborum rem non adipisci sed amet deserunt obcaecati!",
     texto_parte1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis.",
@@ -59,7 +63,7 @@ const posts = [
   {
     id: 4,
     categoria: "dia_a_dia",
-    titulo: "Titulo do Post",
+    titulo: "Titulo do Post Titulo do Post",
     data: "01/06/2024",
     descricao: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, esse. Provident vero illum inventore. Tempore assumenda harum natus nobis numquam exercitationem a. Laborum rem non adipisci sed amet deserunt obcaecati!",
     texto_parte1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis.",
@@ -78,7 +82,7 @@ const posts = [
   {
     id: 5,
     categoria: "dia_a_dia",
-    titulo: "Titulo do Post",
+    titulo: "Titulo do Post Titulo do Post",
     data: "01/06/2024",
     descricao: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, esse. Provident vero illum inventore. Tempore assumenda harum natus nobis numquam exercitationem a. Laborum rem non adipisci sed amet deserunt obcaecati!",
     texto_parte1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius eligendi provident neque necessitatibus asperiores voluptatum eveniet, consequuntur veniam libero illum eaque! Quibusdam mollitia rerum minus neque nisi quas perferendis.",
@@ -93,7 +97,7 @@ const posts = [
     tecnologias: ["MySQL", "JavaScript", "C#", "Java"],
     autor: "Victor Jones",
     tempo_de_leitura: "10 min"
-  },
+  }, */
 ];
 
 export default posts;

@@ -53,6 +53,7 @@ const Post = ({ posts }) => {
                   </div>
                 </div>
                 <div className="post-texto">
+                  <strong style={{fontSize: "20px"}}>{post.title_parte1}</strong>
                   <p>{post.texto_parte1}</p>
                   <br />
                   {post.texto_img_parte1 ? (
@@ -63,6 +64,7 @@ const Post = ({ posts }) => {
                   ) : (
                     <br />
                   )}
+                  <strong style={{fontSize: "20px"}}>{post.title_parte2}</strong>
                   <p>{post.texto_parte2}</p>
                   <br />
                   {post.texto_img_parte2 ? (
@@ -73,6 +75,7 @@ const Post = ({ posts }) => {
                   ) : (
                     <br />
                   )}
+                  <strong style={{fontSize: "20px"}}>{post.title_parte3}</strong>
                   <p>{post.texto_parte3}</p>
                   {post.texto_img_parte3 ? (
                     <img

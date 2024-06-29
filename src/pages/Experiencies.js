@@ -39,7 +39,7 @@ function Experiencies() {
       `Colaboro como Desenvolvedor full stack, criando novas funcionalidades no sistema de pagamentos da empresa FitBank, mantendo essas funcionalidades e atualizando funcionalidades existentes. Agregando ao time com skills tecnológicas e interpessoais, buscando constantemente a excelência e a inovação.`,
       "Desenvolvedor FullStack Jr",
       "Fitbank",
-      "Out 2023 - Atual (8 meses)"
+      "Out 2023 - Atual " + `(${currentDate()} Meses)`
     );
 
     hoverChangeExperience(
@@ -47,7 +47,7 @@ function Experiencies() {
       `Como bolsista para maratona de programação, adquiri experiência intensa em resolução de problemas complexos e desenvolvimento de algoritmos eficientes. Participar de competições de alto nível aprimorou minhas habilidades em programação, lógica e trabalho em equipe sob pressão. Proporcionou uma base em várias linguagens e me preparou para enfrentar desafios técnicos em um ambiente profissional.`,
       "Bolsista para maratona de programação",
       "UFC",
-      "Mar 2023 - Out 2023 (8 meses)"
+      "Mar 2023 - Out 2023 (8 Meses)"
     );
 
     /* hoverChangeExperience(
@@ -97,7 +97,7 @@ function Experiencies() {
       `Concluí o curso "JavaScript Algorithms and Data Structures" da freeCodeCamp, onde aprendi a implementar algoritmos eficientes e a utilizar estruturas de dados fundamentais com JavaScript. O curso abordou tópicos como manipulação de arrays e objetos, recursão, algoritmos de ordenação e pesquisa, e estruturas de dados como listas ligadas, árvores e grafos. Através de desafios práticos, desenvolvi habilidades sólidas em resolução de problemas e otimização de código, fortalecendo minha capacidade de escrever código limpo, eficiente e escalável.`,
       "Algoritmos e estruturas de dados em Javascript",
       "FreeCodeCamp",
-      "Fev 2022 - Abr 2022 (3 meses)"
+      "Fev 2022 - Abr 2022 (3 Meses)"
     );
 
     hoverChangeCertificados(
@@ -105,7 +105,7 @@ function Experiencies() {
       `Concluí o curso "Front End Development Libraries" da freeCodeCamp, onde desenvolvi proficiência em várias bibliotecas essenciais para desenvolvimento front-end, como React, Redux, Bootstrap, jQuery, e SASS. O curso enfatizou a construção de interfaces de usuário interativas e responsivas, gerenciamento de estado de aplicações complexas, e a aplicação de práticas modernas de desenvolvimento. Completando projetos práticos, aperfeiçoei minhas habilidades em criar experiências de usuário intuitivas e dinâmicas, consolidando meu conhecimento no desenvolvimento de interfaces web robustas e eficientes.`,
       "Developer frontend e UI Designer",
       "FreeCodeCamp",
-      "Jan 2023 - Fev 2023 (1 mês)"
+      "Jan 2023 - Fev 2023 (1 Mês)"
     );
 
     const header = document.getElementById("experience-company");
@@ -136,6 +136,18 @@ function Experiencies() {
       });
     }
   }, []);
+
+  const currentDate = () => {
+    const dataInicio = new Date("2023-10-15");
+    const dataAtual = new Date();
+
+    const diffAnos = dataAtual.getFullYear() - dataInicio.getFullYear();
+    let diffMeses = dataAtual.getMonth() - dataInicio.getMonth();
+
+    const diferencaTotalMeses = diffAnos * 12 + diffMeses;
+
+    return diferencaTotalMeses;
+  };
 
   return (
     <body>
@@ -171,16 +183,17 @@ function Experiencies() {
                         Desenvolvedor FullStack Jr
                       </h3>
                       <p className="dateExperience">
-                        Out 2023 - Atual (8 meses)
+                        Out 2023 - Atual ({currentDate() + " Meses"})
                       </p>
                     </div>
                     <h4 className="companyExperience">Fitbank</h4>
                     <p className="changeExperience">
-                      Colaboro como Desenvolvedor full stack, criando novas funcionalidades no sistema de
-                      pagamentos da empresa FitBank, mantendo essas
-                      funcionalidades e atualizando funcionalidades existentes.
-                      Agregando ao time com skills tecnológicas e interpessoais,
-                      buscando constantemente a excelência e a inovação.
+                      Colaboro como Desenvolvedor full stack, criando novas
+                      funcionalidades no sistema de pagamentos da empresa
+                      FitBank, mantendo essas funcionalidades e atualizando
+                      funcionalidades existentes. Agregando ao time com skills
+                      tecnológicas e interpessoais, buscando constantemente a
+                      excelência e a inovação.
                     </p>
                   </div>
                 </div>
@@ -211,9 +224,7 @@ function Experiencies() {
                   </div>
                   <div className="text-experience intervalCardReveal">
                     <div>
-                      <h3 className="titleCertificados">
-                      Udemy
-                      </h3>
+                      <h3 className="titleCertificados">Udemy</h3>
                       <p className="dateCertificados">
                         Jun 2024 - Set 2024 (4 Meses)
                       </p>
