@@ -51,12 +51,12 @@ const projects = [
   },
   {
     type: "back",
-    name: "Em breve",
-    description: "Em breve",
-    src: "back.png",
-    repository: "",
-    site: "",
-    technologies: ["MySQL"],
+    name: "EmpregIn",
+    description: "Um sistema de empregos inspirado no LinkedIn, utilizando o algoritmo BFS para calcular a menor distância entre usuários. A equipe focará em desenvolver uma interface de alta usabilidade e aplicar técnicas de desenvolvimento de software.",
+    src: "Empregin.png",
+    repository: "https://github.com/victor-joness/EmpregIn",
+    site: "https://github.com/victor-joness/EmpregIn/tree/main/Imagens%20do%20projeto%20finalizado",
+    technologies: ["Firebase", "C#", "React", "Redux"],
   },
   {
     type: "back",

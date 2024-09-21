@@ -22,6 +22,28 @@ const posts = [
     autor: "Victor Mesquita",
     tempo_de_leitura: "5 min",
   },
+  {
+    "id": 2,
+    "categoria": "desenvolvimento",
+    "titulo": "Um sistema de Empregos Inspirado no LinkedIn",
+    "data": "21/09/2024",
+    "descricao": "Neste post, compartilho os detalhes sobre o desenvolvimento de um sistema de empregos inspirado no LinkedIn. Foi um projeto feito por 5 pessoas, e envolve o uso de varias tecnologias, e uma API em C# para garantir eficiência e escalabilidade.",
+    "title_parte1": "Descrição do Projeto:",
+    "texto_parte1": "Nosso projeto, inspirado no LinkedIn, visa criar uma plataforma de empregos onde usuários podem visualizar e conectar-se com outros profissionais, com a possibilidade de calcular a menor distância entre dois membros da rede. Para isso, utilizamos o algoritmo Breadth-First Search (BFS), que nos permitiu encontrar o caminho mínimo entre as conexões de forma eficiente. A ideia principal é possibilitar que os usuários entendam o grau de proximidade com outras pessoas dentro da plataforma, facilitando a criação de novos contatos e oportunidades profissionais.",
+    "texto_img_parte1": "https://github.com/victor-joness/EmpregIn/blob/main/Imagens%20do%20projeto%20finalizado/Algortimo.png?raw=true",
+    "title_parte2": "Desafios Enfrentados e Tecnologias Utilizadas",
+    "texto_parte2": "Ao longo do desenvolvimento, enfrentamos diversos desafios técnicos e de design. Um dos maiores foi a estruturação dos dados em grafos para representar as conexões entre os usuários e garantir que o BFS funcionasse adequadamente em tempo real, mesmo com grandes volumes de dados. Também nos deparamos com a necessidade de criar uma interface intuitiva e responsiva para garantir uma boa usabilidade, além de integrar várias tecnologias ao mesmo tempo. \n\n **Tecnologias utilizadas:** \n- **React**: usado para criar a interface de usuário e os componentes interativos. \n- **Redux**: utilizado para gerenciar o estado global da aplicação, garantindo que as informações sobre as conexões dos usuários e suas interações fossem sincronizadas e compartilhadas eficientemente. \n- **Firebase**: atuando como nosso banco de dados, armazenando informações sobre os usuários, conexões e cálculos de distância. Além disso, usamos o Firebase Authentication para gerenciar o login e registro de novos membros. \n- **API em C#**: responsável pelo backend, gerenciando a lógica dos dados e a comunicação com o banco. Foi uma escolha estratégica pela familiaridade da equipe com a linguagem e sua capacidade de lidar com operações mais complexas de forma robusta.",
+    "texto_img_parte2": "https://github.com/victor-joness/EmpregIn/blob/main/Imagens%20do%20projeto%20finalizado/Perfil.png?raw=true",
+    "title_parte3": "Impacto, Trabalho Acadêmico e Futuro do Projeto",
+    "texto_parte3": "Este projeto foi desenvolvido como parte de um trabalho acadêmico focado em explorar o impacto das redes de contato no mercado de trabalho. Inspirado na estrutura do LinkedIn, nosso objetivo foi compreender como as conexões profissionais influenciam as oportunidades de emprego e networking. Ao replicar o modelo de uma plataforma real e aplicar conceitos de grafos, conseguimos demonstrar de forma prática como as redes podem encurtar distâncias entre candidatos e oportunidades.\n\n Além disso, a experiência de trabalhar em equipe foi enriquecedora. Com 5 membros, dividimos tarefas de desenvolvimento, design e integração de sistemas. Todos colaboraram ativamente para garantir que as funcionalidades fossem implementadas corretamente, e as tecnologias se integrassem perfeitamente.\n\n **Próximos passos:** \nNosso objetivo futuro é expandir o projeto, adicionando filtros de busca avançada, recomendação de conexões e recursos para candidatos, como criação de perfis personalizados e integração com APIs de vagas de emprego. Estamos considerando também otimizar ainda mais o algoritmo para lidar com um volume crescente de dados, mantendo a performance em ambientes de grande escala.",
+    "texto_img_parte3": "",
+    "src": "https://github.com/victor-joness/EmpregIn/blob/main/Imagens%20do%20projeto%20finalizado/Feed.png?raw=true",
+    "repository": "https://github.com/victor-joness/EmpregIn/tree/main",
+    "site": "",
+    "tecnologias": ["React", "Redux", "Firebase", "C#"],
+    "autor": "Equipe de Desenvolvimento",
+    "tempo_de_leitura": "10-15 min"
+}
   /* {
     id: 2,
     categoria: "dia_a_dia",
