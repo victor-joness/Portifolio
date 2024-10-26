@@ -8,6 +8,7 @@ import css_icon from '../images/css_icon.svg'
 import json_icon from '../images/json_icon.svg'
 import csharp_icon from '../images/Csharp_icon.svg'
 import py_icon from '../images/py_icon.svg'
+import mongodb_icon from '../images/mongodb_icon.svg'
 
 function Header() {
   return ( 
@@ -47,6 +48,11 @@ function Header() {
           icon={ py_icon }
           name='codificando_soluções.py 🚧'
           path="/codificando"
+        /> 
+        <MenuBar 
+          icon={ mongodb_icon }
+          name='NexusTech.Md 🚧'
+          path="/nexusTech"
         /> 
       </nav>
     </header>

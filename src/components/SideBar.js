@@ -7,6 +7,7 @@ import css_icon from "../images/css_icon.svg";
 import json_icon from "../images/json_icon.svg";
 import csharp_icon from "../images/Csharp_icon.svg";
 import py_icon from "../images/py_icon.svg";
+import mongodb_icon from "../images/mongodb_icon.svg";
 import { Link } from "react-router-dom";
 
 function SideBar({childToParent}) {
@@ -70,6 +71,10 @@ function SideBar({childToParent}) {
           <Link to="/codificando" className="explorer-file">
             <img src={py_icon} alt="icon" className="icon-side-bar" />
             <p>codificando.py</p>
+          </Link>
+          <Link to="/nexusTech" className="explorer-file">
+            <img src={mongodb_icon} alt="icon" className="icon-side-bar" />
+            <p>NexusTech.Md</p>
           </Link>
         </>
       ) : (

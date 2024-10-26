@@ -8,6 +8,7 @@ import Projects from './pages/Projects';
 import Blog from './pages/Blog';
 import Experiencies from './pages/Experiencies';
 import Codificando from './pages/Codificando';
+import NexusTech from './pages/NexusTech';
 
 import Post from "./pages/Post";
 import posts from "./data/blog";
@@ -23,6 +24,7 @@ function App() {
         <Route path="/blog" element={ <Blog /> } />
         <Route path="/experiences" element={<Experiencies/>}/>
         <Route path="/codificando" element={<Codificando/>}/>
+        <Route path="/nexusTech" element={<NexusTech/>}/>
 
         <Route path="/post/:id" element={<Post posts={posts}/>}/>
       </Routes>
