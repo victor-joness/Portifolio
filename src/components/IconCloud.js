@@ -24,12 +24,13 @@ const Componente = () => {
     "typescript",
     "nodedotjs",
     "github",
-    "visualstudiocode",
+    "mongodb",
     "redux",
     "mysql",
     "dotnet",
     "csharp",
-    "mui"
+    "mui",
+    "rabbitmq",
   ];
   const iconTags = iconSlugs.map((slug) => ({
     id: slug,

@@ -43,7 +43,27 @@ const posts = [
     "tecnologias": ["React", "Redux", "Firebase", "C#"],
     "autor": "Equipe de Desenvolvimento",
     "tempo_de_leitura": "10-15 min"
+},
+{
+  "id": 3,
+  "categoria": "tcc",
+  "titulo": "TCC: Um App para Surdos e Intérpretes",
+  "data": "05/12/2024",
+  "descricao": "Estou empolgado em compartilhar o tema do meu TCC, que será um aplicativo inclusivo para pessoas surdas e intérpretes. O objetivo é promover o acesso à educação em Libras e facilitar a comunicação por meio de um dicionário técnico e acessível.",
+  "texto_parte1": "Depois de muita pesquisa e reflexão, finalmente escolhi o tema do meu TCC. Vou desenvolver um aplicativo para pessoas surdas e intérpretes, utilizando tecnologias como React Native e Expo. Este projeto terá um grande impacto ao criar um ambiente acessível e inclusivo, promovendo o aprendizado de Libras de forma prática e técnica. Estou animado para aplicar meus conhecimentos de Interação Humano-Computador (IHC), desenvolver o design e codificar toda a interface do usuário. Enquanto isso, um colega ficará responsável pelo backend, criando as APIs e integrando as funcionalidades.",
+  "texto_img_parte1": "https://github.com/victor-joness/Portifolio/blob/main/src/Blog/Preview%20APP.png?raw=true",
+  "texto_parte2": "O principal objetivo do aplicativo será unificar o acesso à educação de Libras. Além de funcionar como um dicionário geral, ele terá sessões específicas para palavras técnicas voltadas a cursos de graduação, como Direito, Engenharia, Medicina e outras áreas de conhecimento. Isso permitirá que estudantes e profissionais acessem o vocabulário técnico necessário para suas áreas, facilitando a inclusão em ambientes educacionais e profissionais.",
+  "texto_img_parte2": "https://github.com/victor-joness/Portifolio/blob/main/src/Blog/Preview%20APP2.png?raw=true",
+  "texto_parte3": "Este é apenas o início de um projeto que combina tecnologia e inclusão. Pretendo documentar todo o processo de desenvolvimento, desde a pesquisa inicial até a implementação final. Acompanhe meu blog para atualizações sobre as etapas do projeto, os desafios enfrentados e as conquistas alcançadas. O apoio de todos será essencial para transformar este projeto em uma ferramenta útil e impactante para a comunidade surda.",
+  "texto_img_parte3": "",
+  "src": "https://librasv.wordpress.com/wp-content/uploads/2016/01/libras-logo.jpg",
+  "repository": "",
+  "site": "",
+  "tecnologias": ["React Native", "Expo", "Firebase", "IHC"],
+  "autor": "Seu Nome",
+  "tempo_de_leitura": "5 min"
 }
+
   /* {
     id: 2,
     categoria: "dia_a_dia",

@@ -55,7 +55,7 @@ function About() {
                 Minhas habilidades incluem{" "}
                 <span className="span-highlight">
                   HTML, CSS, JavaScript, ReactJS, Redux, ContextAPI, Hooks,
-                  Node.js, C#, .NET, MySQL, Jest e Git/GitHub.
+                  Node.js, C#, .NET, MySQL, MongoDB, RabbitMQ e Git/GitHub.
                 </span>{" "}
                 Estou sempre buscando aprender e aprimorar minhas habilidades
                 para oferecer soluções cada vez mais eficazes.
