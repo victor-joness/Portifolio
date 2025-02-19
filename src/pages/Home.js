@@ -55,9 +55,10 @@ function Home() {
                   <FiDownload />
                 </a>
                 <a
-                  href=""
+                  href="https://github.com/victor-joness/Portifolio/raw/refs/heads/main/curriculo.pdf"
                   target="_blank"
                   className="btn-pdf"
+                  download={true}
                   rel="noreferrer"
                 >
                   Currículo PDF
