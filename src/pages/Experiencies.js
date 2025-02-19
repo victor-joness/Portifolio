@@ -39,7 +39,7 @@ function Experiencies() {
       `Colaboro como Desenvolvedor full stack, criando novas funcionalidades no sistema de pagamentos da empresa FitBank, mantendo essas funcionalidades e atualizando funcionalidades existentes. Agregando ao time com skills tecnológicas e interpessoais, buscando constantemente a excelência e a inovação.`,
       "Desenvolvedor FullStack Jr",
       "Fitbank",
-      "Out 2023 - Atual " + `(${currentDate()} Meses)`
+      "Out 2023 - Fev 2025 (1 ano e 5 Meses)"
     );
 
     hoverChangeExperience(
