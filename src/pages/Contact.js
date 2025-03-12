@@ -32,8 +32,7 @@ function Contact() {
                   </i>
                   <div className="icons-infos">
                     <h3>Número</h3>
-                    <p>+55 88 9.97927491</p>
-                    <p>+55 88 9.99937525</p>
+                    <p>+55 88 9.96069203</p>
                   </div>
                 </div>
                 <div class="icons">

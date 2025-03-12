@@ -52,7 +52,8 @@ const projects = [
   {
     type: "back",
     name: "EmpregIn",
-    description: "Um sistema de empregos inspirado no LinkedIn, utilizando o algoritmo BFS para calcular a menor distância entre usuários. A equipe focará em desenvolver uma interface de alta usabilidade e aplicar técnicas de desenvolvimento de software.",
+    description:
+      "Um sistema de empregos inspirado no LinkedIn, utilizando o algoritmo BFS para calcular a menor distância entre usuários. A equipe focará em desenvolver uma interface de alta usabilidade e aplicar técnicas de desenvolvimento de software.",
     src: "Empregin.png",
     repository: "https://github.com/victor-joness/EmpregIn",
     site: "https://github.com/victor-joness/EmpregIn/tree/main/Imagens%20do%20projeto%20finalizado",
@@ -60,21 +61,62 @@ const projects = [
   },
   {
     type: "back",
-    name: "Em breve",
-    description: "Em breve",
-    src: "back.png",
-    repository: "",
+    name: "Sistema de tarefas",
+    description:
+      "Desenvolvimento de um sistema de tarefas colaborativo com as tecnologias mais recentes",
+    src: "Sistema-de-tarefas.png",
+    repository: "https://github.com/victor-joness/Teste-Watch-Brasil",
     site: "",
-    technologies: ["MySQL"],
+    technologies: [
+      "Vue.js",
+      "OpenTelemetry",
+      "Tailwind CSS",
+      "Node.js",
+      "Drizzle ORM",
+      "PostgreSQL",
+      "Docker",
+      "Deploy AWS",
+      "JWT",
+      "Jest",
+      "Prometheus",
+      "Grafana",
+      "Jaeger",
+    ],
   },
   {
     type: "back",
-    name: "Em breve",
-    description: "Em breve",
-    src: "back.png",
-    repository: "",
+    name: "HMS - Hospital Management System",
+    description:
+      "Sistema de gerenciamento hospitalar: ERP + EMS + LIMS + PMS + RIS + EHR",
+    src: "HMS.png",
+    repository: "https://github.com/victor-joness/HMS-Health-Management-System",
+    site: "https://hms-hospitalar.vercel.app/",
+    technologies: [
+      "React.js",
+      "Redux",
+      "Postgress",
+      "Node.js",
+      "Typescript",
+      "Jest",
+      "Rabbit.MQ",
+      "Redis",
+      "Docker",
+    ],
+  },
+  {
+    type: "back",
+    name: "TCC - Glossários de Libras",
+    description:
+      "Sistema de gerenciamento de glossários de Libras para facilitar o aprendizado e a consulta de sinais.",
+    src: "TCC.png",
+    repository: "https://github.com/victor-joness/TCC",
     site: "",
-    technologies: ["MySQL"],
+    technologies: [
+      "React Native",
+      "Expo",
+      "Java",
+      "PostgreSQL"
+    ],
   },
 
   /* {
@@ -95,15 +137,6 @@ const projects = [
       "MongoDB",
     ],
   }, */
-  {
-    type: "back",
-    name: "Em breve",
-    description: "Em breve",
-    src: "back.png",
-    repository: "",
-    site: "",
-    technologies: ["MySQL"],
-  },
 ];
 
 export default projects;

@@ -60,7 +60,7 @@ const posts = [
   "repository": "",
   "site": "",
   "tecnologias": ["React Native", "Expo", "Firebase", "IHC"],
-  "autor": "Seu Nome",
+  "autor": "Victor Mesquita",
   "tempo_de_leitura": "5 min"
 }
 

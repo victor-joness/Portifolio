@@ -50,6 +50,8 @@ function Experiencies() {
       "Mar 2023 - Out 2023 (8 Meses)"
     );
 
+    
+
     /* hoverChangeExperience(
       ".contweb",
       `Realizei o estágio na ContWeb, uma empresa de contabilidade. 
@@ -108,6 +110,22 @@ function Experiencies() {
       "Jan 2023 - Fev 2023 (1 Mês)"
     );
 
+    hoverChangeCertificados(
+      ".mongodb",
+      `Completei o curso "MongoDB", que abordou modelagem de dados, agregações, índices, e técnicas de otimização para bancos de dados NoSQL. O curso também incluiu a integração do MongoDB com aplicações Node.js e técnicas avançadas de consultas.`,
+      "MongoDB",
+      "MongoDB University",
+      "Ago 2024 - Out 2024 (3 Meses)"
+    );
+
+    hoverChangeCertificados(
+      ".nodejsclean",
+      `Completei o curso "Node.js Avançado com Clean Architecture", que abordou práticas avançadas de desenvolvimento com Node.js, focando na implementação da Clean Architecture. O curso explorou a criação de APIs escaláveis, separação de responsabilidades, testes automatizados e boas práticas de design de software, visando a construção de sistemas de fácil manutenção e alta performance.`,
+      "Node.js Avançado com Clean Architecture",
+      "Udemy",
+      "Out 2024 - Fev 2025 (4 Meses)"
+    );
+
     const header = document.getElementById("experience-company");
     const btns = header.getElementsByClassName("company");
 
@@ -149,6 +167,7 @@ function Experiencies() {
     return diferencaTotalMeses;
   };
 
+  
   return (
     <body>
       <TitleBar />
@@ -183,7 +202,7 @@ function Experiencies() {
                         Desenvolvedor FullStack Jr
                       </h3>
                       <p className="dateExperience">
-                        Out 2023 - Atual ({currentDate() + " Meses"})
+                        Out 2023 - Fev 2025 ({currentDate() + " Meses"})
                       </p>
                     </div>
                     <h4 className="companyExperience">Fitbank</h4>
@@ -220,6 +239,12 @@ function Experiencies() {
                     </div>
                     <div className="companyC frontendDeveloper">
                       <h3>Front End Development Libraries</h3>
+                    </div>
+                    <div className="companyC mongodb">
+                      <h3>MongoDB C# Developer Path</h3>
+                    </div>
+                    <div className="companyC nodejsclean">
+                      <h3>Nodejs Avançado com Clean Architecture</h3>
                     </div>
                   </div>
                   <div className="text-experience intervalCardReveal">

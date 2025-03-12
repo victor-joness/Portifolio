@@ -31,6 +31,10 @@ const Componente = () => {
     "csharp",
     "mui",
     "rabbitmq",
+    "redis",
+    "postgresql",
+    "nextdotjs",
+    "docker"
   ];
   const iconTags = iconSlugs.map((slug) => ({
     id: slug,

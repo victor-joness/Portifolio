@@ -100,12 +100,14 @@
 }
 
 /* certificados */
-
 .main-wrapper.certificados {
   display: flex;
-  align-items: center;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  flex-direction: column;  /* Para garantir que os itens fiquem na coluna */
+  align-items: flex-start; /* Alinha os itens à esquerda */
+  overflow-x: hidden;      /* Esconde o scroll horizontal */
+  overflow-y: auto;        /* Habilita o scroll vertical */
+  max-height: 400px;       /* Define a altura máxima do container */
+  padding-right: 10px;     /* Adiciona um pequeno espaço à direita */
 }
 
 #s-experience-certificado {
@@ -141,6 +143,8 @@
   display: flex;
   width: 25%;
   flex-direction: column;
+  overflow-y: auto;
+  max-height: 300px;
 }
 @media screen and (max-width: 1200px) {
   #s-experience-certificado .grid-layout #experience .option-experience {
